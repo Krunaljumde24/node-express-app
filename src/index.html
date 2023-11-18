@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        div{
+            border: 2px groove black;
+            width: 500px;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+    <title>Node + Express App</title>
+</head>
+
+<body>
+    <h2>Welcome to Express.Js App.</h2>
+    <div class="getBlock">
+        <p><u>Form to send data using GET method</u></p>
+        <form action="/send" method="GET">
+            <label for="name">Enter your name</label> <br>
+            <input type="text" name="firstName">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+    <div class="postBlock">
+        <p><u>Form to send data using POST method</u></p>
+        <form action="/send" method="POST">
+            <label for="name">Enter your name</label> <br>
+            <input type="text" name="firstName">
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+
+</html>
